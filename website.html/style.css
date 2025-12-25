@@ -1,0 +1,460 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    height: 250px;
+    background-color: rgb(2, 14, 36);
+    color: white;
+    
+}
+.location{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 3rem;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.location:hover{
+    cursor: pointer;
+}
+.logo{
+    margin-right: 20px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.small-text{
+    color: rgb(187, 188, 189);
+    font-size: 3rem;
+}
+
+.bold-text{
+    font-size: 4rem;
+}
+.loc{
+    margin-top: 115px;
+    margin-left: 20px;
+    height: 50px;
+    width: 40px;
+    font-size: 3rem;
+}
+.select{
+    height: 150px;
+    width: 150px;
+    font-size: 3rem;
+    background-color: rgb(204, 204, 204);
+    margin: 0px;
+}
+.search-bar{
+    display: flex;
+    height: 156px;
+    margin-top: 30px;
+
+}
+#s1{
+    width: 2700px;
+    font-size: 4rem;
+    color: rgb(109, 110, 110);
+}
+#s2{
+    width: 150px;
+    height: 157px;
+    font-size: 3rem;
+    background-color: rgb(239, 203, 43);
+}
+
+#s2:hover{
+    cursor: pointer;
+    background-color: rgb(244, 155, 47);
+}
+
+.flag{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.flag:hover{
+    cursor: pointer;
+}
+.lang{
+    font-size: 3.5rem;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.lang:hover{
+    cursor: pointer;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.sign:hover{
+    cursor: pointer;
+}
+.small{
+    font-size: 3.5rem;
+}
+.big{
+    font-size: 4rem;
+}
+.return{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.return:hover{
+    cursor: pointer;
+}
+.ret{
+    font-size: 3.5rem;
+}
+.order{
+    font-size: 4rem;
+}
+.cart{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    font-size: 4rem;
+    margin-left: 140px;
+}
+.cart:hover{
+    cursor: pointer;
+}
+.cartt{
+    margin-left: 20px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 46, 69);
+    color: white;
+    height: 150px;
+}
+.ham{
+    display: flex;
+    flex-direction: row;
+    font-size: 4rem;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.ham:hover,.fresh:hover, .mx:hover, .sell:hover, .best:hover, .mob:hover, .amz:hover, .today:hover, .cust:hover,
+.new:hover, .prime:hover, .elec:hover, .fash:hover, .hoki:hover, .book:hover, .comp:hover {
+    cursor: pointer;
+    padding-top: 35px;
+}
+.all{
+    margin-left: 20px;
+}
+.fresh, .mx, .sell, .best, .mob, .amz, .today, .cust, .new, .prime, .elec, .fash, .hoki, .book, .comp{
+    font-size: 4rem;
+    padding: 30px;
+    margin-left: 50px;
+}
+.back{
+    background-color: rgb(255, 215, 236);
+    height: 1200px;
+    display: flex;
+}
+.back:hover{
+    cursor: pointer;
+}
+.bigsale{
+    margin-top: 180px;
+    margin-left: 1700px;
+}
+.makeup{
+    height: 1000px;
+    width: 1300px;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+.sale{
+    font-size: 5rem;
+}
+#sp1{
+    font-family: 'Times New Roman', Times, serif;
+}
+#sp2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.salee{
+    display: flex;
+    justify-content: center;
+}
+.top, .latest{
+    font-size: 5rem;
+    margin-top: 40px;
+    padding: 60px;
+}
+.Card{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+}
+.card{
+    padding: 20px;
+}
+.unlimited{
+    font-size: 3rem;
+    margin-left: 40px;
+    padding: 20px;
+}
+.tandc{
+    font-size: 3rem;
+    align-content: start;
+}
+.boxes1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(225, 223, 223);
+    height: 1900px;
+    padding-top: 50px;
+}
+.box1, .box2, .box3, .box4{
+    width: 1450px;
+    height: 1800px;
+    font-size: 3.5rem;
+    background-color: white;
+    margin: 30px;
+}
+.revamp, .bulk, .app, .start{
+    width: 1500px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.images{
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1200px;
+}
+.img1{
+    grid-column: 1/2;
+    padding: 30px;
+}
+.img2{
+    grid-column: 2/3;
+    padding: 30px;
+}
+.img3, .img4{
+    padding: 30px;
+}
+.i3{
+    margin-top: 55px;
+}
+.images:hover{
+    cursor: pointer;
+}
+.bluelink{
+    text-align: left;
+    justify-content: baseline;
+    margin-left: 70px;
+    margin-top: 125px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.5rem;
+    color: rgb(74, 128, 176);
+}
+.bluelink:hover{
+    cursor: pointer;
+    color: black;
+}
+.b2{
+    margin-top: 55px;
+}
+.boxes2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(225, 223, 223);
+    height: 1900px;
+}
+.boxes3, .boxes4, .boxes5, .boxes6{
+    background-color: rgb(225, 223, 223);
+    height: 1200px;
+    margin-top: 60px;
+}
+.b3{
+    color: rgb(74, 128, 176);
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.b3:hover{
+     cursor: pointer;
+    color: black;
+}
+.bikes, .startt{
+    font-size: 4rem;
+    display: flex;
+    margin-top:px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+    background-color: white;
+} 
+.imgg{
+    display: flex;
+    padding-left: 30px;
+    height: 950px;
+    background-color: white
+}
+.imgg1{
+    margin: 25px;
+}
+.bikes:hover, .startt:hover, .imgg, .imgg1{
+    cursor: pointer;
+}
+.bp{
+    text-align: center;
+}
+.close{
+justify-items: center;
+font-size: 4rem;
+padding: 80px;
+margin: 60px;
+}
+.signin{
+    border-radius: 10%;
+    background-color: rgb(233, 201, 61);
+    height: 100px;
+    width: 700px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+.neww{
+    text-align: center;
+    font-size: 3rem;
+}
+.ahref:hover{
+    cursor: pointer;
+    color: rgb(27, 43, 57);
+}
+.ahref{
+    color: rgb(53, 110, 159);
+}
+.signin:hover{
+    cursor: pointer;
+    background-color: rgb(222, 165, 59);
+}
+.backk{
+    display: flex;
+    color: white;
+    background-color: rgb(44, 60, 79);
+    text-align: center;
+    justify-content: center;
+    height: 220px;
+    font-size: 3.5rem;
+}
+.backk:hover{
+    cursor: pointer;
+    background-color: rgb(56, 76, 100);
+}
+.backkk{
+    align-content: center;
+}
+.bottomm{
+    display: flex;
+    background-color: rgbrgb(18, 43, 66);
+    color: white;
+    font-size: 3.5rem;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 190px;
+}
+.bottom{
+    background-color: rgb(28, 42, 55);
+    height: 2200px;
+}
+.botto:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.h3:hover{
+
+    cursor: pointer;
+}
+.amzi{
+    margin: 20px;
+    margin-left: 2000px;
+}
+.closing{
+    display: flex;
+    color: white;
+    font-size: 3rem;
+}
+.langg{
+     border: 1px solid white;
+     font-family: Arial, Helvetica, sans-serif;
+     height: 120px;
+     width: 260px;
+     text-align: center;
+     align-content: center;
+     margin-top: 130px;
+     margin-left: 450px;
+}
+.amzi:hover{
+    cursor: pointer;
+}
+.langg:hover{
+    cursor: pointer;
+}
+.india:hover{
+    cursor: pointer;
+}
+.india{
+    border: 1px solid white;
+     font-family: Arial, Helvetica, sans-serif;
+     height: 120px;
+     width: 260px;
+     text-align: center;
+     align-content: center;
+     margin-top: 130px;
+     display: flex;
+     margin-left: 150px;
+}
+.flagg{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.indiaa{
+    margin-top: 32px;
+}
+.last{
+    background-color: rgb(25, 35, 44);
+    color: white;
+    font-size: 3.5rem;
+}
+.lastt{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.lastt1{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+.last1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.hover:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
